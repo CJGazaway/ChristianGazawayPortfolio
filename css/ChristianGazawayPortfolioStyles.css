@@ -1,0 +1,206 @@
+body, html{
+    height: 100%;
+    scroll-padding-top: 6.5rem;
+}
+
+#negative_space{
+    margin-top: -4rem;
+    color: #fff;
+}
+
+#about-head{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4rem;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+#contact-form {
+    padding: 2.5rem 30%;
+}
+
+#web-design-head{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#web-design-cols{
+    margin-bottom: 1rem;
+}
+
+#pv-head{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3rem;
+}
+
+#pv-cols{
+    margin-bottom: 4.5rem;
+}
+
+.pv-text {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+#bg-image{
+    background-image: url('https://i.imgur.com/LFsfOfV.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divider_divs {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 5px;
+    width: 5%;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.divider_divs2 {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #000;
+    border-width: 5px;
+    width: 5%;
+    margin-left:  auto;
+    margin-right: auto;
+}
+#partners-head{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+
+}
+#young-legends{
+    width: 23.172rem;
+    height: 15.625rem;
+}
+#urban{
+    width: 23rem;
+    height: 23rem;
+}
+.partner-images{
+    text-align: center;
+}
+#ready-form{
+    text-align: center;
+}
+#submit-button{
+    margin: 1rem;
+}
+.copyright{
+    font-size: 0.75rem;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.socials{
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+.socials:link {
+    color: #fff;
+}
+.socials:visited {
+    color:#fff;
+}
+.socials:hover {
+    color:#007E33;
+}
+.socials:active {
+    color:#fff;
+}
+
+.link-text{
+    font-weight: bold;
+}
+.nav-back{
+    background-color: black;
+}
+
+#navbar{
+    transition: transform 0.5s;
+}
+#welcome-text{
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5rem;
+    padding-top: 10rem;
+    margin-bottom: -7rem;
+    text-align: right;
+}
+#squares-logo{
+    width: 15rem;
+    height: 15rem;
+}
+#squares-logo{
+    width: 15rem;
+    height: 15rem;
+}
+
+.gold{
+    width: 15rem;
+    height: 15rem;
+}
+
+.wwd-text {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+   
+}
+
+#logo_text {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+
+/* Media Queries  */
+
+@media (min-width: 320px) and (max-width: 480px){
+    #welcome-text{
+        font-size: 5rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    #welcome-text{
+        font-size: 5rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #welcome-text{
+        font-size: 7rem;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+    #welcome-text{
+        font-size: 7rem;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+    #welcome-text{
+        font-size: 8rem;
+    }
+}
